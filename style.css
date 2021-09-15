@@ -1,11 +1,109 @@
+@import url("https://use.typekit.net/qus1ptd.css");
+
+/* Base styling */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #d9554e;
+  font-family: rooney-sans, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 100%;
+}
+
+#wrapper {
+  max-width: 1000px;
+  margin: auto;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+/* NAV */
+
+.pomofocus_logo {
+  display: inline-block;
+  color: white;
+  font-family: rooney-sans, sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+a {
+  text-decoration: none;
+}
+
+.nav {
+  display: inline-block;
+  padding: 10px;
+}
+
+.nav a {
+  color: white;
+  background-color: #db7671;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+/* Timer */
+
+.timer_section {
+  background-color: #db7671;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+}
+
 .timer {
   font-size: 70px;
+  color: white;
 }
 
-.controls {
-  width: 400px;
+/* Button */
+
+button {
+  background-color: white;
+  color: #d9554e;
+  border: none;
+  box-shadow: 2px 2px 2px grey;
+  padding: 10px 60px;
+  width: 300px;
+  font-size: 25px;
+  font-family: rooney-sans, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  display: block;
+  margin: auto;
 }
 
-.controls button {
-  font-size: 24px;
+/* Info section */
+
+.info_section {
+  background-color: white;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+h1,
+h2 {
+  color: #552021;
+}
+
+/* Footer */
+
+.footer_links {
+  background: white;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  padding: 10px;
+}
+
+.footer_links a {
+  color: #552021;
 }
